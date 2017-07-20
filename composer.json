@@ -1,0 +1,24 @@
+{
+  "name": "stingus/symfony-di-sample",
+  "type": "project",
+  "description": "Symfony DI component sample with auto-wiring",
+  "keywords": ["symfony","di","dependency injection","container","auto-wiring"],
+  "license": "MIT",
+  "authors": [
+    {
+        "name": "Arthur Kerpician",
+        "email": "arthur@bluechip.ro"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "symfony/dependency-injection": "^3.3",
+    "symfony/config": "^3.3",
+    "symfony/yaml": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Stingus\\SymfonyDI\\": "src/"
+    }
+  }
+}

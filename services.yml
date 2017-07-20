@@ -1,0 +1,13 @@
+parameters:
+  tnt: 'TNT International'
+
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: true
+
+  Stingus\SymfonyDI\Order\Order: ~
+
+  Stingus\SymfonyDI\Shipping\Carrier:
+    arguments: ['%tnt%']
